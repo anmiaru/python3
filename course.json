@@ -63,7 +63,46 @@
           "text": "scenarios/Python3注释.md"
         }
       ]
+    },
+    {
+      "title": "Python3运算符",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3运算符",
+          "text": "scenarios/Python3运算符.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3数字(Number)",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3数字(Number)",
+          "text": "scenarios/Python3数字(Number).md"
+        }
+      ]
+    },
+    {
+      "title": "Python3字符串",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3字符串",
+          "text": "scenarios/Python3字符串.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3列表",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3列表",
+          "text": "scenarios/Python3列表.md"
+        }
+      ]
     }
-
   ]
 }
