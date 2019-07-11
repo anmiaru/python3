@@ -103,6 +103,96 @@
           "text": "scenarios/Python3列表.md"
         }
       ]
+    },
+    {
+      "title": "Python3元组",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3元组",
+          "text": "scenarios/Python3元组.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3字典",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3字典",
+          "text": "scenarios/Python3字典.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3集合",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3集合",
+          "text": "scenarios/Python3集合.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3编程第一步",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3编程第一步",
+          "text": "scenarios/Python3编程第一步.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3条件控制",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3条件控制",
+          "text": "scenarios/Python3条件控制.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3循环语句",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3循环语句",
+          "text": "scenarios/Python3循环语句.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3迭代器与生成器",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3迭代器与生成器",
+          "text": "scenarios/Python3迭代器与生成器.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3函数",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3函数",
+          "text": "scenarios/Python3函数.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3数据结构",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3数据结构",
+          "text": "scenarios/Python3数据结构.md"
+        }
+      ]
     }
   ]
 }

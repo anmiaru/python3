@@ -139,8 +139,9 @@ L=['Google', 'Runoob', 'Taobao']
 ### **Python列表函数&方法**
 Python包含以下函数:
 ![](https://github.com/anmiaru/python3/raw/master/image/10-3.png)
+
 Python包含以下方法:
-![](https://github.com/anmiaru/python3/raw/master/image/10-4.png)
+![](https://github.com/anmiaru/python3/raw/master/image/10-4.png)  
 ![](https://github.com/anmiaru/python3/raw/master/image/10-5.png)
 
 
