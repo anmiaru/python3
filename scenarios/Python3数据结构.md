@@ -1,13 +1,14 @@
 ## **Python3数据结构**
 
 本章节我们主要结合前面所学的知识点来介绍Python数据结构。
+
 ---
 
 ### **列表**
 Python中列表是可变的，这是它区别于字符串和元组的最重要的特点，一句话概括即：列表可以修改，而字符串和元组不能。
 
 以下是 Python 中列表的方法：
-![](https://github.com/anmiaru/python3/raw/master/image/19-15.png)
+![](https://github.com/anmiaru/python3/raw/master/image/19-1.png)
 
 下面示例演示了列表的大部分方法：
 ```python
