@@ -13,6 +13,16 @@
           "text": "scenarios/Python3基本介绍.md"
         }
       ]
+    },
+    {
+      "title": "Python3环境搭建",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3环境搭建",
+          "text": "scenarios/Python3环境搭建.md"
+        }
+      ]
     }
 
 
