@@ -117,13 +117,11 @@ path=%path%;C:\Python
 ![](../image/2-5.png)
 
 ### **Python 环境变量**
-下面几个重要的环境变量，它应用于Python：
-| 变量名 | 描述 |  
-|  -----------  |  ------------------------------------------------------------------- |  
-| PYTHONPATH | PYTHONPATH是Python搜索路径，默认我们import的模块都会从PYTHONPATH里面寻找。 |   
-| PYTHONSTARTUP | Python启动后，先寻找PYTHONSTARTUP环境变量，然后执行此变量指定的文件中的代码。 |  
-| PYTHONCASEOK | 加入PYTHONCASEOK的环境变量, 就会使python导入模块的时候不区分大小写. |  
-| PYTHONHOME | 另一种模块搜索路径。它通常内嵌于的PYTHONSTARTUP或PYTHONPATH目录中，使得两个模块库更容易切换。 |  
+下面几个重要的环境变量，它应用于Python：  
+**PYTHONPATH** : PYTHONPATH是Python搜索路径，默认我们import的模块都会从PYTHONPATH里面寻找。   
+**PYTHONSTARTUP** : Python启动后，先寻找PYTHONSTARTUP环境变量，然后执行此变量指定的文件中的代码。   
+**PYTHONCASEOK** : 加入PYTHONCASEOK的环境变量, 就会使python导入模块的时候不区分大小写.   
+**PYTHONHOME** : 另一种模块搜索路径。它通常内嵌于的PYTHONSTARTUP或PYTHONPATH目录中，使得两个模块库更容易切换。    
 
 ### **运行Python**
 有三种方式可以运行Python：
@@ -138,14 +136,12 @@ $ python # Unix/Linux
 C:>python # Windows/DOS
 ```
 
-以下为Python命令行参数：
-| 选项 | 描述 |  
-| ------ | ------------------------------- |  
-| -d | 在解析时显示调试信息 |   
-| -O | 生成优化代码 ( .pyo 文件 ) |   
-| -S | 启动时不引入查找Python路径的位置 |   
-| -V | 输出Python版本号 |   
-| -X | 从 1.6版本之后基于内建的异常（仅仅用于字符串）已过时。 |   
-| -c cmd | 执行 Python 脚本，并将运行结果作为 cmd 字符串。 |   
-| file | 在给定的python文件执行python脚本。 |   
- 
+以下为Python命令行参数： 
+** -d : ** 在解析时显示调试信息   
+** -O : ** 生成优化代码 ( .pyo 文件 )    
+** -S : ** 启动时不引入查找Python路径的位置  
+** -V : ** 输出Python版本号   
+** -X : ** 从 1.6版本之后基于内建的异常（仅仅用于字符串）已过时。  
+** -c cmd : ** 执行 Python 脚本，并将运行结果作为 cmd 字符串。   
+** file : ** 在给定的python文件执行python脚本。  
+
