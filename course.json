@@ -193,6 +193,216 @@
           "text": "scenarios/Python3数据结构.md"
         }
       ]
+    },
+    {
+      "title": "Python3模块",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3模块",
+          "text": "scenarios/Python3模块.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3输入和输出",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3输入和输出",
+          "text": "scenarios/Python3输入和输出.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 File(文件)方法",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 File(文件)方法",
+          "text": "scenarios/Python3 File(文件)方法.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 OS 文件/目录方法",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 OS 文件/目录方法",
+          "text": "scenarios/Python3 OS.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 错误和异常",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 错误和异常",
+          "text": "scenarios/Python3 错误和异常.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 面向对象",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 面向对象",
+          "text": "scenarios/Python3 面向对象.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3标准库概览",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3标准库概览",
+          "text": "scenarios/Python3标准库概览.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3实例",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3实例",
+          "text": "scenarios/Python3实例.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3正则表达式",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3正则表达式",
+          "text": "scenarios/Python3正则表达式.md"
+        }
+      ]
+    },
+    {
+      "title": "Python CGI编程",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python CGI编程",
+          "text": "scenarios/Python CGI编程.md"
+        }
+      ]
+    },
+    {
+      "title": "Python MySQL - mysql-connector 驱动",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python MySQL - mysql-connector 驱动",
+          "text": "scenarios/Python MySQL - mysql-connector 驱动.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 MySQL 数据库连接 - PyMySQL 驱动",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 MySQL 数据库连接 - PyMySQL 驱动",
+          "text": "scenarios/Python3 MySQL 数据库连接 - PyMySQL 驱动.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 网络编程",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 网络编程",
+          "text": "scenarios/Python3 网络编程.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 SMTP发送邮件",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 SMTP发送邮件",
+          "text": "scenarios/Python3 SMTP发送邮件.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 多线程",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 多线程",
+          "text": "scenarios/Python3 多线程.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 XML 解析",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 XML 解析",
+          "text": "scenarios/Python3 XML 解析.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 JSON 数据解析",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 JSON 数据解析",
+          "text": "scenarios/Python3 JSON 数据解析.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 日期和时间",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 日期和时间",
+          "text": "scenarios/Python3 日期和时间.md"
+        }
+      ]
+    },
+    {
+      "title": "Python3 内置函数",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python3 内置函数",
+          "text": "scenarios/Python3 内置函数.md"
+        }
+      ]
+    },
+    {
+      "title": "Python MongoDB",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python MongoDB",
+          "text": "scenarios/Python MongoDB.md"
+        }
+      ]
+    },
+    {
+      "title": "Python uWSGI 安装配置",
+      "environment": "registry.cn-shanghai.aliyuncs.com/kfcoding/kfcoding-eci-envs:python3",
+      "steps": [
+        {
+          "title": "Python uWSGI 安装配置",
+          "text": "scenarios/Python uWSGI 安装配置.md"
+        }
+      ]
     }
   ]
 }
