@@ -178,3 +178,418 @@ False
 ![](https://github.com/anmiaru/python3/raw/master/image/13-2.png)
 
 
+下面对上面没有提及的内置方法进行介绍：
+
+## **Python Set copy()方法**
+### **描述**
+copy() 方法用于拷贝一个集合。
+
+### **语法**
+copy() 方法语法：
+```python
+set.copy()
+```
+### **参数**
+* 无。
+
+### **返回值**
+
+无。
+### **实例**
+拷贝 fruits 集合：
+```python 
+fruits = {"apple", "banana", "cherry"}
+x = fruits.copy()
+print(x)
+```
+输出结果为：
+```python 
+{'cherry', 'banana', 'apple'}
+```
+
+---
+
+## **Python Set difference() 方法**
+### **描述**
+difference() 方法用于返回集合的差集，即返回的集合元素包含在第一个集合中，但不包含在第二个集合(方法的参数)中。
+
+### **语法**
+difference() 方法语法：
+```python
+set.difference(set)
+```
+### **参数**
+* set -- 必需，用于计算差集的集合
+
+### **返回值**
+返回一个新的集合。
+
+### **实例**
+返回一个集合，元素包含在集合 x ，但不在集合 y ：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+ 
+z = x.difference(y) 
+ 
+print(z)
+```
+输出结果为：
+
+```python 
+{'cherry', 'banana'}
+```
+
+---
+
+## **Python Set difference_update() 方法**
+### **描述**
+difference_update() 方法用于移除两个集合中都存在的元素。
+
+difference_update() 方法与 difference() 方法的区别在于 difference() 方法返回一个移除相同元素的新集合，而 difference_update() 方法是直接在原来的集合中移除元素，没有返回值。
+
+### **语法**
+difference_update() 方法语法：
+```python
+set.difference_update(set)
+```
+### **参数**
+* set -- 必需，用于计算差集的集合
+
+### **返回值**
+无。
+
+### **实例**
+移除两个集合都包含的元素：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+ 
+x.difference_update(y) 
+ 
+print(x)
+```
+输出结果为：
+```python 
+{'cherry', 'banana'}
+```
+
+---
+
+## **Python Set intersection() 方法**
+### **描述**
+intersection() 方法用于返回两个或更多集合中都包含的元素，即交集。
+
+### **语法**
+intersection() 方法语法：
+```python
+set.intersection(set1, set2 ... etc)
+```
+### **参数**
+* set1 -- 必需，要查找相同元素的集合
+* set2 -- 可选，其他要查找相同元素的集合，可以多个，多个使用逗号 , 隔开
+
+### **返回值**
+
+返回一个新的集合。
+### **实例**
+返回一个新集合，该集合的元素既包含在集合 x 又包含在集合 y 中：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+z = x.intersection(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+{'apple'}
+```
+
+---
+
+## **Python Set intersection_update() 方法**
+### **描述**
+intersection_update() 方法用于获取两个或更多集合中都重叠的元素，即计算交集。
+
+intersection_update() 方法不同于 intersection() 方法，因为 intersection() 方法是返回一个新的集合，而 intersection_update() 方法是在原始的集合上移除不重叠的元素。
+
+### **语法**
+intersection_update() 方法语法：
+```python
+set.intersection_update(set1, set2 ... etc)
+```
+### **参数**
+* set1 -- 必需，要查找相同元素的集合
+* set2 -- 可选，其他要查找相同元素的集合，可以多个，多个使用逗号 , 隔开
+
+### **返回值**
+
+无。
+### **实例**
+返回一个新集合，该集合的元素既包含在集合 x 又包含在集合 y 中：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+x.intersection_update(y) 
+ 
+print(x)
+```
+输出结果为：
+```python 
+{'apple'}
+```
+计算多个集合的并集：
+```python 
+x = {"a", "b", "c"}
+y = {"c", "d", "e"}
+z = {"f", "g", "c"}
+ 
+x.intersection_update(y, z)
+ 
+print(x)
+```
+输出结果为：
+```python 
+{'c'}
+```
+
+---
+
+## **Python Set isdisjoint() 方法**
+### **描述**
+isdisjoint() 方法用于判断两个集合是否包含相同的元素，如果没有返回 True，否则返回 False。
+
+### **语法**
+isdisjoint() 方法语法：
+```python
+set.isdisjoint(set)
+```
+### **参数**
+* set -- 必需，要比较的集合
+
+### **返回值**
+返回布尔值，如果不包含返回 True，否则返回 False。
+
+### **实例**
+判断集合 y 中是否有包含 集合 x 的元素：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "facebook"}
+ 
+z = x.isdisjoint(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+True
+```
+如果包含返回 False：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+z = x.isdisjoint(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+False
+```
+
+---
+
+## **Python Set issubset() 方法**
+### **描述**
+issubset() 方法用于判断集合的所有元素是否都包含在指定集合中，如果是则返回 True，否则返回 False。
+
+### **语法**
+issubset() 方法语法：
+```python
+set.issubset(set)
+```
+### **参数**
+* set -- 必需，要比查找的集合
+
+### **返回值**
+返回布尔值，如果都包含返回 True，否则返回 False。
+
+### **实例**
+判断集合 x 的所有元素是否都包含在集合 y 中：
+```python 
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+ 
+z = x.issubset(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+True
+```
+如果没有全部包含返回 False：
+```python 
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b"}
+ 
+z = x.issubset(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+False
+```
+
+---
+
+## **Python Set issuperset() 方法**
+### **描述**
+issuperset() 方法用于判断指定集合的所有元素是否都包含在原始的集合中，如果是则返回 True，否则返回 False。
+
+### **语法**
+issuperset() 方法语法：
+```python
+set.issuperset(set)
+```
+### **参数**
+* set -- 必需，要比查找的集合
+
+### **返回值**
+返回布尔值，如果都包含返回 True，否则返回 False。
+
+### **实例**
+判断集合 y 的所有元素是否都包含在集合 x 中：
+```python 
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+ 
+z = x.issuperset(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+True
+```
+如果没有全部包含返回 False：
+```python 
+x = {"f", "e", "d", "c", "b"}
+y = {"a", "b", "c"}
+ 
+z = x.issuperset(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+False
+```
+---
+
+## **Python Set symmetric_difference() 方法**
+### **描述**
+symmetric_difference() 方法返回两个集合中不重复的元素集合，即会移除两个集合中都存在的元素。
+
+### **语法**
+symmetric_difference() 方法语法：
+```python
+set.symmetric_difference(set)
+```
+### **参数**
+* set -- 集合
+
+### **返回值**
+返回一个新的集合。
+
+### **实例**
+返回两个集合组成的新集合，但会移除两个集合的重复元素：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+z = x.symmetric_difference(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+{'google', 'cherry', 'banana', 'runoob'}
+```
+
+---
+
+## **Python Set symmetric_difference_update() 方法**
+### **描述**
+symmetric_difference_update() 方法移除当前集合中在另外一个指定集合相同的元素，并将另外一个指定集合中不同的元素插入到当前集合中。
+
+### **语法**
+symmetric_difference_update() 方法语法：
+```python
+set.symmetric_difference_update(set)
+```
+### **参数**
+* set -- 要检测的集合
+
+### **返回值**
+无。
+
+### **实例**
+在原始集合 x 中移除与 y 集合中的重复元素，并将不重复的元素插入到集合 x 中：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+x.symmetric_difference_update(y) 
+ 
+print(x)
+```
+输出结果为：
+```python 
+{'google', 'cherry', 'banana', 'runoob'}
+```
+
+---
+
+## **Python Set union() 方法**
+### **描述**
+union() 方法返回两个集合的并集，即包含了所有集合的元素，重复的元素只会出现一次。
+
+### **语法**
+union() 方法语法：
+```python
+set.union(set1, set2...)
+```
+### **参数**
+* set1 -- 必需，合并的目标集合
+* set2 -- 可选，其他要合并的集合，可以多个，多个使用逗号 , 隔开。
+
+### **返回值**
+返回一个新集合。
+
+### **实例**
+合并两个集合，重复元素只会出现一次：
+```python 
+x = {"apple", "banana", "cherry"}
+y = {"google", "runoob", "apple"}
+ 
+z = x.union(y) 
+ 
+print(z)
+```
+输出结果为：
+```python 
+{'cherry', 'runoob', 'google', 'banana', 'apple'}
+```
+
+---
+
+
+
+
+
