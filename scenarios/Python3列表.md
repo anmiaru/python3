@@ -173,6 +173,7 @@ print (len(list2))
 5
 ```
 
+---
 
 ## **Python3 List max()方法**
 ### **描述**
@@ -205,6 +206,7 @@ list1 最大元素值 :  Taobao
 list2 最大元素值 :  700
 ```
 
+---
 
 ## **Python3 List min()方法**
 ### **描述**
@@ -237,6 +239,7 @@ list1 最小元素值 :  Google
 list2 最小元素值 :  200
 ```
 
+---
 
 ## **Python3 List list()方法**
 ### **描述**
@@ -273,13 +276,14 @@ print ("列表元素 : ", list2)
 列表元素 :  ['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
 ```
 
+---
 
 
 Python包含以下方法:
 ![](https://github.com/anmiaru/python3/raw/master/image/10-4.png)  
 ![](https://github.com/anmiaru/python3/raw/master/image/10-5.png)
 
-下面对这些函数进行详细的介绍：
+下面对这些方法进行详细的介绍：
 
 ## **Python3 List append()方法**
 ### **描述**
@@ -310,6 +314,7 @@ print ("更新后的列表 : ", list1)
 更新后的列表 :  ['Google', 'Runoob', 'Taobao', 'Baidu']
 ```
 
+---
 ## **Python3 List count()方法**
 ### **描述**
 count() 方法用于统计某个元素在列表中出现的次数。
@@ -341,6 +346,7 @@ print ("Runoob 元素个数 : ", aList.count('Runoob'))
 Runoob 元素个数 :  1
 ```
 
+---
 ## **Python3 List extend()方法**
 ### **描述**
 extend() 函数用于在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）。
@@ -400,6 +406,7 @@ print('新列表: ', language)
 ```
 
 
+---
 ## **Python3 List index()方法**
 ### **描述**
 index() 函数用于从列表中找出某个值第一个匹配项的索引位置。
@@ -444,6 +451,7 @@ print ('Runoob 索引值为', list1.index('Runoob',1))
 Runoob 索引值为 1
 ```
 
+---
 ## **Python3 List insert()方法**
 ### **描述**
 insert() 函数用于将指定对象插入列表的指定位置。
@@ -474,6 +482,7 @@ print ('列表插入元素后为 : ', list1)
 列表插入元素后为 :  ['Google', 'Baidu', 'Runoob', 'Taobao']
 ```
 
+---
 ## **Python3 List pop()方法**
 ### **描述**
 pop() 函数用于移除列表中的一个元素（默认最后一个元素），并且返回该元素的值。
@@ -505,6 +514,7 @@ print ("列表现在为 : ", list1)
 列表现在为 :  ['Google', 'Runoob']
 列表现在为 :  ['Google']
 ```
+---
 
 ## **Python3 List remove()方法**
 ### **描述**
@@ -539,6 +549,7 @@ print ("列表现在为 : ", list1)
 ```
 
 
+---
 
 ## **Python3 List reverse()方法**
 ### **描述**
@@ -569,6 +580,7 @@ print ("列表反转后: ", list1)
 列表反转后:  ['Baidu', 'Taobao', 'Runoob', 'Google']
 ```
 
+---
 
 
 ## **Python3 List sort()方法**
@@ -641,6 +653,7 @@ print ('排序列表：', random)
 排序列表：[(4, 1), (2, 2), (1, 3), (3, 4)]
 ```
 
+---
 
 
 ## **Python3 List clear()方法**
@@ -672,6 +685,7 @@ print ("列表清空后 : ", list1)
 列表清空后 :  []
 ```
 
+---
 
 ## **Python3 List copy()方法**
 ### **描述**
