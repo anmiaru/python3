@@ -11,6 +11,7 @@ Python中while语句的一般形式：
 while 判断条件：
     语句
 ```
+
 执行 Gif 演示：
 
 ![](https://github.com/anmiaru/python3/raw/master/image/16-2.gif)
