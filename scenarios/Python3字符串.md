@@ -188,21 +188,21 @@ Python 的字符串常用内建函数如下：
 **isupper()**  : 如果字符串中包含至少一个区分大小写的字符，并且所有这些(区分大小写的)字符都是大写，则返回 True，否则返回 False。  
 **join(seq)**  : 以指定字符串作为分隔符，将 seq 中所有的元素(的字符串表示)合并为一个新的字符串。  
 **len(string)**  : 返回字符串长度。  
-**ljust(width[, fillchar])**  : 返回一个原字符串左对齐,并使用 fillchar 填充至长度 width 的新字符串，fillchar 默认为空格。  
+**ljust(width\[, fillchar\])**  : 返回一个原字符串左对齐,并使用 fillchar 填充至长度 width 的新字符串，fillchar 默认为空格。  
 **lower()**  : 转换字符串中所有大写字符为小写。  
 **lstrip()**  : 截掉字符串左边的空格或指定字符。
 **maketrans()**  : 创建字符映射的转换表，对于接受两个参数的最简单的调用方式，第一个参数是字符串，表示需要转换的字符，第二个参数也是字符串表示转换的目标。  
 **max(str)**  : 返回字符串 str 中最大的字母。  
 **min(str)**  : 返回字符串 str 中最小的字母。  
-**replace(old, new [, max])**  : 把 将字符串中的 str1 替换成 str2,如果 max 指定，则替换不超过 max 次。  
+**replace(old, new \[, max\])**  : 把 将字符串中的 str1 替换成 str2,如果 max 指定，则替换不超过 max 次。  
 **rfind(str, beg=0,end=len(string))**  : 类似于 find()函数，不过是从右边开始查找。  
 **rindex( str, beg=0, end=len(string))**  : 类似于 index()，不过是从右边开始。  
-**rjust(width,[, fillchar])**  : 返回一个原字符串右对齐,并使用fillchar(默认空格）填充至长度 width 的新字符串。  
+**rjust(width,\[, fillchar\])**  : 返回一个原字符串右对齐,并使用fillchar(默认空格）填充至长度 width 的新字符串。  
 **rstrip()**  : 删除字符串字符串末尾的空格。  
 **split(str="", num=string.count(str))**  : num=string.count(str)) 以 str 为分隔符截取字符串，如果 num 有指定值，则仅截取 num+1 个子字符串。  
-**splitlines([keepends])**  : 按照行('\r', '\r\n', \n')分隔，返回一个包含各行作为元素的列表，如果参数 keepends 为 False，不包含换行符，如果为 True，则保留换行符。  
+**splitlines(\[keepends\])**  : 按照行('\r', '\r\n', \n')分隔，返回一个包含各行作为元素的列表，如果参数 keepends 为 False，不包含换行符，如果为 True，则保留换行符。  
 **startswith(substr, beg=0,end=len(string))**  : 检查字符串是否是以指定子字符串 substr 开头，是则返回 True，否则返回 False。如果beg 和 end 指定值，则在指定范围内检查。  
-**strip([chars])**  : 在字符串上执行 lstrip()和 rstrip()。  
+**strip(\[chars\])**  : 在字符串上执行 lstrip()和 rstrip()。  
 **swapcase()**  : 将字符串中大写转换为小写，小写转换为大写。  
 **title()**  : 返回"标题化"的字符串,就是说所有单词都是以大写开始，其余字母均为小写(见 istitle())。  
 **translate(table, deletechars="")**  : 根据 str 给出的表(包含 256 个字符)转换 string 的字符, 要过滤掉的字符放到 deletechars 参数中。  
