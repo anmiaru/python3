@@ -19,7 +19,8 @@ else:
 * 如果 "condition_1" 为 True 将执行 "statement_block_1" 块语句
 * 如果 "condition_1" 为False，将判断 "condition_2"
 * 如果"condition_2" 为 True 将执行 "statement_block_2" 块语句
-* 如果 "condition_2" 为False，将执行"statement_block_3"块语句
+* 如果 "condition_2" 为False，将执行"statement_block_3"块语句  
+
 Python 中用 elif 代替了 else if，所以if语句的关键字为：if – elif – else。
 
 注意：
