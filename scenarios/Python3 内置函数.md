@@ -2524,30 +2524,5 @@ __import__('a')        # 导入 a.py 模块
 ```
 
 
-```python 
-
-```
-
-
-```python 
-
-```
-
-
-```python 
-
-```
-
-
-```python 
-
-```
-
-
-```python 
-
-```
-
-
 
 
