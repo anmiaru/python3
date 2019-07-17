@@ -2,6 +2,7 @@
 本章节将为大家介绍Python循环语句的使用。  
 Python中的循环语句有 for 和 while。  
 Python循环语句的控制结构图如下所示：
+
 ![](https://github.com/anmiaru/python3/raw/master/image/16-1.png)
 
 ### **while 循环**
@@ -11,6 +12,7 @@ while 判断条件：
     语句
 ```
 执行 Gif 演示：
+
 ![](https://github.com/anmiaru/python3/raw/master/image/16-2.gif)
 
 同样需要注意冒号和缩进。另外，在 Python 中没有 do..while 循环。  
