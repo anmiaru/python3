@@ -36,7 +36,7 @@ class ClassName:
 
 ### **类对象**
 类对象支持两种操作：属性引用和实例化。  
-属性引用使用和 Python 中所有的属性引用一样的标准语法：``obj.name``。   
+属性引用使用和 Python 中所有的属性引用一样的标准语法：**obj.name**。   
 类对象创建后，类命名空间中所有的命名都是有效属性名。所以如果类定义是这样:
 
 ```python 
@@ -65,18 +65,18 @@ MyClass 类的方法 f 输出为： hello world
 ---
 
 
-类有一个名为 __init__() 的特殊方法（构造方法），该方法在类实例化时会自动调用，像下面这样：
+类有一个名为 \_\_init\_\_() 的特殊方法（构造方法），该方法在类实例化时会自动调用，像下面这样：
 ```python 
 def __init__(self):
     self.data = []
 ```
 
-类定义了 \_\_init__() 方法，类的实例化操作会自动调用 \_\_init__() 方法。如下实例化类 MyClass，对应的 \_\_init__() 方法就会被调用:
+类定义了 \_\_init\_\_() 方法，类的实例化操作会自动调用 \_\_init\_\_() 方法。如下实例化类 MyClass，对应的 \_\_init\_\_() 方法就会被调用:
 ```python 
 x = MyClass()
 ```
 
-当然， \_\_init__() 方法可以有参数，参数通过 \_\_init__() 传递到类的实例化操作上。例如:
+当然， \_\_init\_\_() 方法可以有参数，参数通过 \_\_init\_\_() 传递到类的实例化操作上。例如:
 ```python 
 #!/usr/bin/python3
  
@@ -372,7 +372,7 @@ x.__foo()      # 报错
 ```
 以上实例执行结果：
 
-![](https://github.com/anmiaru/python3/raw/master/image/25-1.png)
+![](https://github.com/anmiaru/python3/raw/master/image/25-1.jpg)
 
 **类的专有方法：**
 * \_\_init__ : 构造函数，在生成对象时调用
