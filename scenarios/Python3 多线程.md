@@ -88,7 +88,7 @@ threading 模块除了包含 _thread 模块中的所有方法外，还提供的�
 除了使用方法外，线程模块同样提供了Thread类来处理线程，Thread类提供了以下方法:
 * run(): 用以表示线程活动的方法。
 * start():启动线程活动。
-* join([time]): 等待至线程中止。这阻塞调用线程直至线程的join() 方法被调用中止-正常退出或者抛出未处理的异常-或者是可选的超时发生。
+* join(\[time\]): 等待至线程中止。这阻塞调用线程直至线程的join() 方法被调用中止-正常退出或者抛出未处理的异常-或者是可选的超时发生。
 * isAlive(): 返回线程是否活动的。
 * getName(): 返回线程名。
 * setName(): 设置线程名。
@@ -233,7 +233,7 @@ Queue 模块中的常用方法:
 * Queue.empty() 如果队列为空，返回True,反之False
 * Queue.full() 如果队列满了，返回True,反之False
 * Queue.full 与 maxsize 大小对应
-* Queue.get([block[, timeout]])获取队列，timeout等待时间
+* Queue.get(\[block\[, timeout\]\])获取队列，timeout等待时间
 * Queue.get_nowait() 相当Queue.get(False)
 * Queue.put(item) 写入队列，timeout等待时间
 * Queue.put_nowait(item) 相当Queue.put(item, False)
