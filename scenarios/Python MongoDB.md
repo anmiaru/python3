@@ -4,6 +4,7 @@ MongoDB 是目前最流行的 NoSQL 数据库之一，使用的数据类型 BSON
 ---
 ### **PyMongo**
 Python 要连接 MongoDB 需要 MongoDB 驱动，这里我们使用 PyMongo 驱动来连接。
+
 #### **pip 安装**
 pip 是一个通用的 Python 包管理工具，提供了对 Python 包的查找、下载、安装、卸载的功能。  
 安装 pymongo:
