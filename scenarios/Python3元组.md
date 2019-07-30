@@ -102,7 +102,7 @@ NameError: name 'tup' is not defined
 ### **元组运算符**
 与字符串一样，元组之间可以使用 + 号和 * 号进行运算。这就意味着他们可以组合和复制，运算后会生成一个新的元组。
 
-![](https://github.com/anmiaru/python3/raw/master/image/11-1.png)
+![](/image/11-1.png)
 
 ---
 
@@ -114,7 +114,7 @@ NameError: name 'tup' is not defined
 L = ('Google', 'Taobao', 'Runoob')
 ```
 
-![](https://github.com/anmiaru/python3/raw/master/image/11-2.png)
+![](/image/11-2.png)
 
 运行实例如下：
 
@@ -132,7 +132,7 @@ L = ('Google', 'Taobao', 'Runoob')
 Python元组包含了以下内置函数
 
 
-![](https://github.com/anmiaru/python3/raw/master/image/11-3.png)
+![](/image/11-3.png)
 
 
 

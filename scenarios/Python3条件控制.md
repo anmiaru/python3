@@ -2,7 +2,7 @@
 Python 条件语句是通过一条或多条语句的执行结果（True 或者 False）来决定执行的代码块。  
 
 可以通过下图来简单了解条件语句的执行过程:
-![](https://github.com/anmiaru/python3/raw/master/image/15-1.jpg)
+![](/image/15-1.jpg)
 
 ---
 
@@ -30,7 +30,7 @@ Python 中用 elif 代替了 else if，所以if语句的关键字为：if – el
 * 3、在Python中没有switch – case语句。
 
 Gif 演示：
-![](https://github.com/anmiaru/python3/raw/master/image/15-2.gif)
+![](/image/15-2.gif)
 
 ### **实例语句**
 以下是一个简单的 if 实例：
@@ -85,7 +85,7 @@ $ python3 dog.py
 点击 enter 键退出
 ```
 以下为if中常用的操作运算符:
-![](https://github.com/anmiaru/python3/raw/master/image/15-3.png)
+![](/image/15-3.png)
 
 ```python
 #!/usr/bin/python3

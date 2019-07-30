@@ -1,6 +1,6 @@
 # **Python3 内置函数**
 
-![](https://github.com/anmiaru/python3/raw/master/image/38-1.png)
+![](/image/38-1.png)
 
 ## **Python3 abs() 函数**
 ### **描述**
@@ -888,9 +888,9 @@ value 为: 6
 3.14
 ```
 
-![](https://github.com/anmiaru/python3/raw/master/image/38-2.png)
+![](/image/38-2.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/38-3.png)
+![](/image/38-3.png)
 
 ^, <, > 分别是居中、左对齐、右对齐，后面带宽度， : 号后面带填充的字符，只能是一个字符，不指定则默认是用空格填充。   
 \+ 表示在正数前显示 +，负数前显示 -；  （空格）表示在正数前加空格。  
@@ -1625,9 +1625,9 @@ open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, clo
 
 mode 参数有：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-12.png)
+![](/image/39-12.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-13.png)
+![](/image/39-13.png)
 
 默认为文本模式，如果要以二进制模式打开，加上 b 。
 

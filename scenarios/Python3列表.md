@@ -87,7 +87,7 @@ print ("删除第三个元素 : ", list)
 
 如下所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/10-1.png)
+![](/image/10-1.png)
 
 ---
 
@@ -99,7 +99,7 @@ Python的列表截取与字符串操作类型，如下所示：
 L=['Google', 'Runoob', 'Taobao']
 ```
 操作：
-![](https://github.com/anmiaru/python3/raw/master/image/10-2.png)
+![](/image/10-2.png)
 ```python 
 >>>L=['Google', 'Runoob', 'Taobao']
 >>> L[2]
@@ -138,7 +138,7 @@ L=['Google', 'Runoob', 'Taobao']
 
 ### **Python列表函数&方法**
 Python包含以下函数:
-![](https://github.com/anmiaru/python3/raw/master/image/10-3.png)
+![](/image/10-3.png)
 
 下面对这些函数进行详细的介绍：
 
@@ -280,8 +280,8 @@ print ("列表元素 : ", list2)
 
 
 Python包含以下方法:
-![](https://github.com/anmiaru/python3/raw/master/image/10-4.png)  
-![](https://github.com/anmiaru/python3/raw/master/image/10-5.png)
+![](/image/10-4.png)  
+![](/image/10-5.png)
 
 下面对这些方法进行详细的介绍：
 

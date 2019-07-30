@@ -184,13 +184,13 @@ open(filename, mode)
 
 不同模式打开文件的完全列表：
 
-![](https://github.com/anmiaru/python3/raw/master/image/21-1.png)
+![](/image/21-1.png)
 
 下图很好的总结了这几种模式：
 
-![](https://github.com/anmiaru/python3/raw/master/image/21-2.png)
+![](/image/21-2.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/21-3.png)
+![](/image/21-3.png)
 
 
 以下实例将字符串写入到文件 foo.txt 中：

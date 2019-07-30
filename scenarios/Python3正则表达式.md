@@ -16,12 +16,12 @@ re.match(pattern, string, flags=0)
 ```
 函数参数说明：
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-1.png)
+![](/image/28-1.png)
 
 匹配成功re.match方法返回一个匹配的对象，否则返回None。  
 我们可以使用group(num) 或 groups() 匹配对象函数来获取匹配表达式。  
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-2.png)
+![](/image/28-2.png)
 
 ```python
 #!/usr/bin/python
@@ -67,12 +67,12 @@ re.search(pattern, string, flags=0)
 ```
 函数参数说明：
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-3.png)
+![](/image/28-3.png)
 
 匹配成功re.search方法返回一个匹配的对象，否则返回None。   
 我们可以使用group(num) 或 groups() 匹配对象函数来获取匹配表达式。
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-4.png)
+![](/image/28-4.png)
 
 
 ```python
@@ -314,7 +314,7 @@ re.finditer(pattern, string, flags=0)
 ```
 参数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-5.png)
+![](/image/28-5.png)
 
 
 ```python
@@ -338,7 +338,7 @@ re.split(pattern, string[, maxsplit=0, flags=0])
 ```
 参数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-6.png)
+![](/image/28-6.png)
 
 
 ```python
@@ -369,7 +369,7 @@ group() 返回被 RE 匹配的字符串。
 ### **正则表达式修饰符 - 可选标志**
 正则表达式可以包含一些可选标志修饰符来控制匹配的模式。修饰符被指定为一个可选的标志。多个标志可以通过按位 OR(|) 它们来指定。如 re.I | re.M 被设置成 I 和 M 标志：
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-7.png)
+![](/image/28-7.png)
 
 ---
 
@@ -382,25 +382,25 @@ group() 返回被 RE 匹配的字符串。
 由于正则表达式通常都包含反斜杠，所以你最好使用原始字符串来表示它们。模式元素(如 r'\t'，等价于 \\\t )匹配相应的特殊字符。  
 下表列出了正则表达式模式语法中的特殊元素。如果你使用模式的同时提供了可选的标志参数，某些模式元素的含义会改变。
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-8.png)
+![](/image/28-8.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-9.png)
+![](/image/28-9.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-10.png)
+![](/image/28-10.png)
 
 ---
 ### **正则表达式实例**
 **字符匹配**
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-11.png)
+![](/image/28-11.png)
 
 **字符类**
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-12.png)
+![](/image/28-12.png)
 
 **特殊字符类**
 
-![](https://github.com/anmiaru/python3/raw/master/image/28-13.png)
+![](/image/28-13.png)
 
 
 

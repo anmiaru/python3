@@ -63,7 +63,7 @@ $ python3 test.py
 ```
 查看我们的收件箱(一般在垃圾箱)，就可以查看到邮件信息：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-1.jpg)
+![](/image/33-1.jpg)
 
 如果我们本机没有 sendmail 访问，也可以使用其他服务商的 SMTP 访问（QQ、网易、Google等）。
 
@@ -140,7 +140,7 @@ $ python3 test.py
 ```
 查看我们的收件箱(一般在垃圾箱)，就可以查看到邮件信息：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-2.jpg)
+![](/image/33-2.jpg)
 
 ---
 ### **Python 发送带附件的邮件**
@@ -193,7 +193,7 @@ $ python3 test.py
 ```
 查看我们的收件箱(一般在垃圾箱)，就可以查看到邮件信息：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-3.jpg)
+![](/image/33-3.jpg)
 
 ---
 ### **在 HTML 文本中添加图片**
@@ -251,17 +251,17 @@ $ python3 test.py
 ```
 查看我们的收件箱(如果在垃圾箱可能需要移动到收件箱才可正常显示)，就可以查看到邮件信息：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-4.jpg)
+![](/image/33-4.jpg)
 
 ---
 ### **使用第三方 SMTP 服务发送**
 这里使用了 QQ 邮箱(你也可以使用 163，Gmail等)的 SMTP 服务，需要做以下配置：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-5.jpg)
+![](/image/33-5.jpg)
 
 QQ 邮箱通过生成授权码来设置密码：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-6.jpg)
+![](/image/33-6.jpg)
 
 QQ 邮箱 SMTP 服务器地址：smtp.qq.com，ssl 端口：465。  
 以下实例你需要修改：发件人邮箱（你的QQ邮箱），密码，收件人邮箱（可发给自己）。
@@ -303,6 +303,6 @@ $ python test.py
 ```
 发送成功后，登陆收件人邮箱即可查看：
 
-![](https://github.com/anmiaru/python3/raw/master/image/33-7.jpg)
+![](/image/33-7.jpg)
 
 更多内容请参阅：https://docs.python.org/3/library/email-examples.html。

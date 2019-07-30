@@ -173,9 +173,9 @@ False
 ```
 
 **集合内置方法完整列表**
-![](https://github.com/anmiaru/python3/raw/master/image/13-1.png)
+![](/image/13-1.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/13-2.png)
+![](/image/13-2.png)
 
 
 下面对上面没有提及的内置方法进行介绍：

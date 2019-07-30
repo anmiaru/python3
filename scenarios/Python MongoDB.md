@@ -188,7 +188,7 @@ print(x.inserted_ids)
 insert_many() 方法返回 InsertManyResult 对象，该对象包含 inserted_ids 属性，该属性保存着所有插入文档的 id 值。  
 执行完以上查找，我们可以在命令终端，查看数据是否已插入:
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-1.png)
+![](/image/39-1.png)
 
 #### **插入指定 _id 的多个文档**  
 我们也可以自己指定 id，插入，以下实例我们在 **site2** 集合中插入数据，**_id**为我们指定的：
@@ -221,14 +221,14 @@ print(x.inserted_ids)
 ```
 执行完以上查找，我们可以在命令终端，查看数据是否已插入:
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-2.png)
+![](/image/39-2.png)
 
 ---
 #### **Python Mongodb 查询文档**
 MongoDB 中使用了 find 和 find_one 方法来查询集合中的数据，它类似于 SQL 中的 SELECT 语句。
 本文使用的测试数据如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-3.png)
+![](/image/39-3.png)
 
 #### **查询一条数据**
 我们可以使用 **find_one()** 方法来查询集合中的一条数据。  
@@ -453,7 +453,7 @@ for x in myresult:
 如果查找到的匹配数据多余一条，则只会修改第一条。  
 本文使用的测试数据如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-4.png)
+![](/image/39-4.png)
 
 以下实例将 alexa 字段的值 10000 改为 12345:
 ```python
@@ -474,7 +474,7 @@ for x in mycol.find():
 ```
 执行输出结果为：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-5.png)
+![](/image/39-5.png)
 
 **update_one()** 方法只能修匹配到的第一条记录，如果要修改所有匹配到的记录，可以使用 **update_many()**。  
 以下实例将查找所有以 F 开头的 **name** 字段，并将匹配到所有记录的 **alexa** 字段修改为 123：
@@ -499,14 +499,14 @@ print(x.modified_count, "文档已修改")
 ```
 查看数据是否已修改：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-6.png)
+![](/image/39-6.png)
 
 #### **Mongodb 排序**
 **sort()** 方法可以指定升序或降序排序。  
 **sort()** 方法第一个参数为要排序的字段，第二个字段指定排序规则，1 为升序，-1 为降序，默认为升序。  
 本文使用的测试数据如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-7.png)
+![](/image/39-7.png)
 
 对字段 alexa 按升序排序：
 ```python
@@ -524,7 +524,7 @@ for x in mydoc:
 ```
 输出结果为：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-8.png)
+![](/image/39-8.png)
 
 对字段 alexa 按降序排序：
 ```python
@@ -543,14 +543,14 @@ for x in mydoc:
 ```
 输出结果为：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-9.png)
+![](/image/39-9.png)
 
 
 #### **Python Mongodb 删除数据**
 我们可以使用 **delete_one()** 方法来删除一个文档，该方法第一个参数为查询对象，指定要删除哪些数据。
 本文使用的测试数据如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-10.png)
+![](/image/39-10.png)
 
 以下实例删除 name 字段值为 "Taobao" 的文档：
 ```python
@@ -572,7 +572,7 @@ for x in mycol.find():
 ```
 输出结果为：
 
-![](https://github.com/anmiaru/python3/raw/master/image/39-11.png)
+![](/image/39-11.png)
 
 #### **删除多个文档**
 我们可以使用 **delete_many()** 方法来删除多个文档，该方法第一个参数为查询对象，指定要删除哪些数据。  

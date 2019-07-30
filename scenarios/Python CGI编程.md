@@ -17,7 +17,7 @@ CGI程序可以是Python脚本，PERL脚本，SHELL脚本，C或者C++程序等�
 
 ### **CGI架构图**
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-1.png)
+![](/image/29-1.png)
 
 ---
 
@@ -69,7 +69,7 @@ chmod 755 hello.py
 ```
 以上程序在浏览器访问显示结果如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-2.jpg)
+![](/image/29-2.jpg)
 
 这个的hello.py脚本是一个简单的Python脚本，脚本第一行的输出内容"Content-type:text/html"发送到浏览器并告知浏览器显示的内容类型为"text/html"。  
 用 print 输出一个空行用于告诉服务器结束头部信息。
@@ -87,15 +87,15 @@ Content-type: text/html
 ```
 以下表格介绍了CGI程序中HTTP头部经常使用的信息：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-3.png)
+![](/image/29-3.png)
 
 ---
 ### **CGI环境变量**
 所有的CGI程序都接收以下的环境变量，这些变量在CGI程序中发挥了重要的作用：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-4.png)
+![](/image/29-4.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-5.png)
+![](/image/29-5.png)
 
 以下是一个简单的CGI脚本输出CGI的环境变量：
 ```python
@@ -114,7 +114,7 @@ print ("</ul>")
 ```
 将以上点保存为 test.py ,并修改文件权限为 755，执行结果如下：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-6.jpg)
+![](/image/29-6.jpg)
 
 ---
 
@@ -172,7 +172,7 @@ chmod 755 hello_get.py
 ```
 浏览器请求输出结果：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-7.jpg)
+![](/image/29-7.jpg)
 
 #### **简单的表单实例：GET方法**
 以下是一个通过HTML的表单使用GET方法向服务器发送两个数据，提交的服务器脚本同样是hello_get.py文件，hello_get.html 代码如下：
@@ -199,7 +199,7 @@ chmod 755 hello_get.html
 ```
 Gif 演示如下所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-8.gif)
+![](/image/29-8.gif)
 
 #### **使用POST方法传递数据**
 使用POST方法向服务器传递数据是更安全可靠的，像一些敏感信息如用户密码等需要使用POST传输数据。  
@@ -250,7 +250,7 @@ print ("</html>")
 ```
 Gif 演示如下所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-9.gif)
+![](/image/29-9.gif)
 
 #### **通过CGI程序传递checkbox数据**
 checkbox用于提交一个或者多个选项数据，HTML代码如下：
@@ -310,7 +310,7 @@ chmod 755 checkbox.py
 ```
 浏览器访问 Gif 演示图：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-10.gif)
+![](/image/29-10.gif)
 
 #### **通过CGI程序传递Radio数据**
 
@@ -365,7 +365,7 @@ chmod 755 radiobutton.py
 ```
 浏览器访问 Gif 演示图：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-11.gif)
+![](/image/29-11.gif)
 
 #### **通过CGI程序传递 Textarea 数据**
 
@@ -421,7 +421,7 @@ chmod 755 textarea.py
 ```
 浏览器访问 Gif 演示图：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-12.gif)
+![](/image/29-12.gif)
 
 #### **通过CGI程序传递下拉数据**
 HTML 下拉框代码如下：
@@ -478,7 +478,7 @@ chmod 755 dropdown.py
 
 浏览器访问 Gif 演示图：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-13.gif)
+![](/image/29-13.gif)
 
 ---
 
@@ -577,7 +577,7 @@ chmod 755 cookie_get.py
 ```
 以上 cookie 设置颜色 Gif 如下所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-14.gif)
+![](/image/29-14.gif)
 
 #### **文件上传实例**
 
@@ -640,7 +640,7 @@ chmod 755 save_file.py
 ```
 以上 cookie 设置颜色 Gif 如下所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/29-15.gif)
+![](/image/29-15.gif)
 
 如果你使用的系统是Unix/Linux，你必须替换文件分隔符，在window下只需要使用open()语句即可：
 ```python

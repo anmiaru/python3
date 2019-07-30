@@ -127,7 +127,7 @@ del var_a, var_b
 * 4、在混合计算时，Python会把整型转换成为浮点数。
 
 #### **数值类型实例**
-![](https://github.com/anmiaru/python3/raw/master/image/4-1.png)
+![](/image/4-1.png)
 Python还支持复数，复数由实数部分和虚数部分构成，可以用a + bj,或者complex(a,b)表示， 复数的实部a和虚部b都是浮点型
 
 
@@ -138,7 +138,7 @@ Python中的字符串用单引号 ' 或双引号 " 括起来，同时使用反�
 变量[头下标:尾下标]
 ```
 索引值以 0 为开始值，-1 为从末尾的开始位置。
-![](https://github.com/anmiaru/python3/raw/master/image/4-2.png)
+![](/image/4-2.png)
 
 加号 + 是字符串的连接符， 星号 * 表示复制当前字符串，紧跟的数字为复制的次数。实例如下：
 ```python
@@ -200,7 +200,7 @@ List（列表） 是 Python 中使用最频繁的数据类型。
 变量[头下标:尾下标]
 ```
 索引值以 0 为开始值，-1 为从末尾的开始位置。
-![](https://github.com/anmiaru/python3/raw/master/image/4-3.png)
+![](/image/4-3.png)
 加号 + 是列表连接运算符，星号 * 是重复操作。如下实例：
 ```python
 #!/usr/bin/python3
@@ -243,7 +243,7 @@ List 内置了有很多方法，例如 append()、pop() 等等，这在后面会
 * 4、List中的元素是可以改变的。
 
 Python 列表截取可以接收第三个参数，参数作用是截取的步长，以下实例在索引 1 到索引 4 的位置并设置为步长为 2（间隔一个位置）来截取字符串：
-![](https://github.com/anmiaru/python3/raw/master/image/4-4.png)
+![](/image/4-4.png)
 如果第三个参数为负数表示逆向读取，以下实例用于翻转字符串：
 
 ```python

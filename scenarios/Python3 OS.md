@@ -1,27 +1,27 @@
 ## **Python3 OS 文件/目录方法**
 os 模块提供了非常丰富的方法用来处理文件和目录。常用的方法如下表所示：
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-1.png)
+![](/image/23-1.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-2.png)
+![](/image/23-2.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-3.png)
+![](/image/23-3.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-4.png)
+![](/image/23-4.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-5.png)
+![](/image/23-5.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-6.png)
+![](/image/23-6.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-7.png)
+![](/image/23-7.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-8.png)
+![](/image/23-8.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-9.png)
+![](/image/23-9.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-10.png)
+![](/image/23-10.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-11.png)
+![](/image/23-11.png)
 
 
 下面对这些方法进行介绍：
@@ -2910,11 +2910,11 @@ os.path 模块主要用于获取文件的属性。
 
 以下是 os.path 模块的几种常用方法：
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-12.png)
+![](/image/23-12.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-13.png)
+![](/image/23-13.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/23-14.png)
+![](/image/23-14.png)
 
 
 

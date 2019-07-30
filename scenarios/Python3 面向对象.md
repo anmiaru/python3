@@ -372,7 +372,7 @@ x.__foo()      # 报错
 ```
 以上实例执行结果：
 
-![](https://github.com/anmiaru/python3/raw/master/image/25-1.jpg)
+![](/image/25-1.jpg)
 
 **类的专有方法：**
 * \_\_init__ : 构造函数，在生成对象时调用

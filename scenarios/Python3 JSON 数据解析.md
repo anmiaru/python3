@@ -8,11 +8,11 @@ Python3 中可以使用 json 模块来对 JSON 数据进行编解码，它包含
 
 ### **Python 编码为 JSON 类型转换对应表：**
 
-![](https://github.com/anmiaru/python3/raw/master/image/36-1.png)
+![](/image/36-1.png)
 
 ### **JSON 解码为 Python 类型转换对应表：**
 
-![](https://github.com/anmiaru/python3/raw/master/image/36-2.png)
+![](/image/36-2.png)
 
 #### **json.dumps 与 json.loads 实例**
 以下实例演示了 Python 数据结构转换为JSON：

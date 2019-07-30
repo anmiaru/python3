@@ -146,12 +146,12 @@ TypeError: unhashable type: 'list'
 ### **字典内置函数&方法**
 Python字典包含了以下内置函数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/12-1.png)
+![](/image/12-1.png)
 
 Python字典包含了以下内置方法：
 
-![](https://github.com/anmiaru/python3/raw/master/image/12-2.png)
-![](https://github.com/anmiaru/python3/raw/master/image/12-3.png)
+![](/image/12-2.png)
+![](/image/12-3.png)
 
 下面对这些内置方法进行详细介绍：
 

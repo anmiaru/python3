@@ -320,5 +320,5 @@ commit()方法游标的所有更新操作，rollback（）方法回滚当前游�
 ### **错误处理**
 DB API中定义了一些数据库操作的错误及异常，下表列出了这些错误和异常:
 
-![](https://github.com/anmiaru/python3/raw/master/image/31-1.png)
+![](/image/31-1.png)
 

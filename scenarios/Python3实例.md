@@ -1509,10 +1509,10 @@ print ('数组元素之和为',ans)
 例如：(arr[], d, n) 将长度为 n 的 数组 arr 的前面 d 个元素翻转到数组尾部。  
 以下演示了将数组的前面两个元素放到数组后面。  
 原始数组:
-![](https://github.com/anmiaru/python3/raw/master/image/27-1.png)
+![](/image/27-1.png)
 
 翻转后：
-![](https://github.com/anmiaru/python3/raw/master/image/27-2.png)
+![](/image/27-2.png)
 
 ```python 
 def leftRotate(arr, d, n): 
@@ -2814,7 +2814,7 @@ for x in range(0, lngth):
 ### **Python 二分查找**
 二分搜索是一种在有序数组中查找某一特定元素的搜索算法。搜索过程从数组的中间元素开始，如果中间元素正好是要查找的元素，则搜索过程结束；如果某一特定元素大于或者小于中间元素，则在数组大于或小于中间元素的那一半中查找，而且跟开始一样从中间元素开始比较。如果在某一步骤数组为空，则代表找不到。这种搜索算法每一次比较都使搜索范围缩小一半。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-3.png)
+![](/image/27-3.png)
 
 ```python 
 # 返回 x 在 arr 中的索引，如果不存在返回 -1
@@ -2862,7 +2862,7 @@ else:
 ### **Python 线性查找**
 线性查找指按一定的顺序检查数组中每一个元素，直到找到所要寻找的特定值为止。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-4.png)
+![](/image/27-4.png)
 
 
 ```python 
@@ -2892,7 +2892,7 @@ else:
 ### **Python 插入排序**
 插入排序（英语：Insertion Sort）是一种简单直观的排序算法。它的工作原理是通过构建有序序列，对于未排序数据，在已排序序列中从后向前扫描，找到相应位置并插入。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-5.gif)
+![](/image/27-5.gif)
 
 
 ```python 
@@ -2937,7 +2937,7 @@ for i in range(len(arr)):
 
 选取基准值有数种具体方法，此选取方法对排序的时间性能有决定性影响。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-6.gif)
+![](/image/27-6.gif)
 
 ```python 
 def partition(arr,low,high): 
@@ -2991,7 +2991,7 @@ for i in range(n):
 ### **Python 选择排序**
 选择排序（Selection sort）是一种简单直观的排序算法。它的工作原理如下。首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置，然后，再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。以此类推，直到所有元素均排序完毕。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-7.gif)
+![](/image/27-7.gif)
 
 ```python 
 import sys 
@@ -3026,7 +3026,7 @@ for i in range(len(A)):
 ### **Python 冒泡排序**
 冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢"浮"到数列的顶端。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-8.gif)
+![](/image/27-8.gif)
 
 ```python 
 def bubbleSort(arr):
@@ -3069,7 +3069,7 @@ for i in range(len(arr)):
 * 分割：递归地把当前序列平均分割成两半。
 * 集成：在保持元素顺序的同时将上一步得到的子序列集成到一起（归并）。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-9.gif)
+![](/image/27-9.gif)
 
 ```python 
 def merge(arr, l, m, r): 
@@ -3160,7 +3160,7 @@ for i in range(n):
 ### **Python 堆排序**
 堆排序（Heapsort）是指利用堆这种数据结构所设计的一种排序算法。堆积是一个近似完全二叉树的结构，并同时满足堆积的性质：即子结点的键值或索引总是小于（或者大于）它的父节点。堆排序可以说是一种利用堆的概念来排序的选择排序。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-10.gif)
+![](/image/27-10.gif)
 
 ```python 
 def heapify(arr, n, i): 
@@ -3213,7 +3213,7 @@ for i in range(n):
 ### **Python 计数排序**
 计数排序的核心在于将输入的数据值转化为键存储在额外开辟的数组空间中。作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-11.gif)
+![](/image/27-11.gif)
 
 ```python 
 def countSort(arr): 
@@ -3252,7 +3252,7 @@ print ( "字符数组排序 %s"  %("".join(ans)) )
 希尔排序，也称递减增量排序算法，是插入排序的一种更高效的改进版本。但希尔排序是非稳定排序算法。  
 希尔排序的基本思想是：先将整个待排序的记录序列分割成为若干子序列分别进行直接插入排序，待整个序列中的记录"基本有序"时，再对全体记录进行依次直接插入排序。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-12.gif)
+![](/image/27-12.gif)
 
 ```python 
 def shellSort(arr): 
@@ -3310,7 +3310,7 @@ for i in range(n):
 * 每个顶点出现且只出现一次；
 * 若A在序列中排在B的前面，则在图中不存在从B到A的路径。
 
-![](https://github.com/anmiaru/python3/raw/master/image/27-13.png)
+![](/image/27-13.png)
 
 ```python 
 from collections import defaultdict 

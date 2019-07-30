@@ -32,7 +32,7 @@ Python 支持三种不同的数值类型：
 >>> number
 31
 ```
-![](https://github.com/anmiaru/python3/raw/master/image/8-1.png)
+![](/image/8-1.png)
 * Python支持复数，复数由实数部分和虚数部分构成，可以用a + bj,或者complex(a,b)表示， 复数的实部a和虚部b都是浮点型。
 
 ---
@@ -136,7 +136,7 @@ NameError: name 'n' is not defined
 
 
 ### **Python 数学函数**
-![](https://github.com/anmiaru/python3/raw/master/image/8-2.png)
+![](/image/8-2.png)
 
 ---
 
@@ -144,19 +144,19 @@ NameError: name 'n' is not defined
 随机数可以用于数学，游戏，安全等领域中，还经常被嵌入到算法中，用以提高算法效率，并提高程序的安全性。  
 Python包含以下常用随机数函数： 
 
-![](https://github.com/anmiaru/python3/raw/master/image/8-3.png)
+![](/image/8-3.png)
 
 ---
 
 ### **Python 三角函数**
 Python包括以下三角函数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/8-4.png)
+![](/image/8-4.png)
 
 ---
 
 ### **Python 数学常量**
-![](https://github.com/anmiaru/python3/raw/master/image/8-5.png)
+![](/image/8-5.png)
 
 ---
 

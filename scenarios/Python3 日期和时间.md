@@ -22,11 +22,11 @@ print ("当前时间戳为:", ticks)
 ### **什么是时间元组？**
 很多Python函数用一个元组装起来的9组数字处理时间:
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-1.png)
+![](/image/37-1.png)
 
 上述也就是struct_time元组。这种结构具有如下属性：
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-2.png)
+![](/image/37-2.png)
 
 ---
 ### **获取当前时间**
@@ -143,28 +143,28 @@ Mo Tu We Th Fr Sa Su
 ### **Time 模块**
 Time 模块包含了以下内置函数，既有时间处理的，也有转换时间格式的：
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-3.png)
+![](/image/37-3.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-4.png)
+![](/image/37-4.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-5.png)
+![](/image/37-5.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-6.png)
+![](/image/37-6.png)
 
 Time模块包含了以下2个非常重要的属性：
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-7.png)
+![](/image/37-7.png)
 
 ---
 ### **日历（Calendar）模块**
 此模块的函数都是日历相关的，例如打印某月的字符月历。  
 星期一是默认的每周第一天，星期天是默认的最后一天。更改设置需调用calendar.setfirstweekday()函数。模块包含了以下内置函数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-8.png)
+![](/image/37-8.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-9.png)
+![](/image/37-9.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/37-10.png)
+![](/image/37-10.png)
 
 ---
 ### **其他相关模块和函数**

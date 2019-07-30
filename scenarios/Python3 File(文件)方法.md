@@ -24,18 +24,18 @@ open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, clo
 
 mode 参数有：
 
-![](https://github.com/anmiaru/python3/raw/master/image/22-1.png)
+![](/image/22-1.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/22-2.png)
+![](/image/22-2.png)
 
 默认为文本模式，如果要以二进制模式打开，加上 b 。
 
 ### **file 对象**  
 file 对象使用 open 函数来创建，下表列出了 file 对象常用的函数：
 
-![](https://github.com/anmiaru/python3/raw/master/image/22-3.png)
+![](/image/22-3.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/22-4.png)
+![](/image/22-4.png)
 
 下面对提到的这些函数进行介绍：
 

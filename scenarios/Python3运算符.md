@@ -17,7 +17,7 @@ Python语言支持以下类型的运算符:
 
 ### **Python算术运算符**
 以下假设变量a为10，变量b为21：
-![](https://github.com/anmiaru/python3/raw/master/image/7-1.png)
+![](/image/7-1.png)
 以下实例演示了Python所有算术运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -66,7 +66,7 @@ print ("7 - c 的值为：", c)
 ---
 ### **Python比较运算符**
 以下假设变量a为10，变量b为20：
-![](https://github.com/anmiaru/python3/raw/master/image/7-2.png)
+![](/image/7-2.png)
 以下实例演示了Python所有比较运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -121,7 +121,7 @@ else:
 ---
 ### **Python赋值运算符**
 以下假设变量a为10，变量b为20：
-![](https://github.com/anmiaru/python3/raw/master/image/7-3.png)
+![](/image/7-3.png)
 以下实例演示了Python所有赋值运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -184,7 +184,7 @@ a^b = 0011 0001
 
 ~a  = 1100 0011
 ```
-![](https://github.com/anmiaru/python3/raw/master/image/7-4.png)
+![](/image/7-4.png)
 以下实例演示了Python所有位运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -225,7 +225,7 @@ print ("6 - c 的值为：", c)
 
 ### **Python逻辑运算符**
 Python语言支持逻辑运算符，以下假设变量 a 为 10, b为 20: 
-![](https://github.com/anmiaru/python3/raw/master/image/7-5.png)
+![](/image/7-5.png)
 以下实例演示了Python所有逻辑运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -274,7 +274,7 @@ else:
 
 ### **Python成员运算符**
 除了以上的一些运算符之外，Python还支持成员运算符，测试实例中包含了一系列的成员，包括字符串，列表或元组。
-![](https://github.com/anmiaru/python3/raw/master/image/7-6.png)
+![](/image/7-6.png)
 以下实例演示了Python所有成员运算符的操作：
 ```python
 #!/usr/bin/python3
@@ -315,7 +315,7 @@ else:
 
 ### **Python身份运算符**
 身份运算符用于比较两个对象的存储单元
-![](https://github.com/anmiaru/python3/raw/master/image/7-7.png)
+![](/image/7-7.png)
 *注： id() 函数用于获取对象内存地址。*
 以下实例演示了Python所有身份运算符的操作：
 ```python
@@ -376,7 +376,7 @@ True
 
 ### **Python运算符优先级**
 以下表格列出了从最高到最低优先级的所有运算符：
-![](https://github.com/anmiaru/python3/raw/master/image/7-8.png)
+![](/image/7-8.png)
 *注： id() 函数用于获取对象内存地址。*
 以下实例演示了Python所有运算符优先级的操作：
 

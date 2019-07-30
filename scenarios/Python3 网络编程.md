@@ -22,9 +22,9 @@ socket.socket([family[, type[, proto]]])
 
 #### **Socket 对象(内建)方法**
 
-![](https://github.com/anmiaru/python3/raw/master/image/32-1.png)
+![](/image/32-1.png)
 
-![](https://github.com/anmiaru/python3/raw/master/image/32-2.png)
+![](/image/32-2.png)
 
 ---
 ### **简单实例**
@@ -118,6 +118,6 @@ $ python3 client.py
 ### **Python Internet 模块**
 以下列出了 Python 网络编程的一些重要模块：
 
-![](https://github.com/anmiaru/python3/raw/master/image/32-3.png)
+![](/image/32-3.png)
 
 更多内容可以参阅官网的[Python Socket Library and Modules](https://docs.python.org/3.0/library/socket.html)

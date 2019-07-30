@@ -44,14 +44,14 @@ print ("已更新字符串 : ", var1[:6] + 'Runoob!')
 
 ### **Python 转义字符**
 在需要在字符中使用特殊字符时，python用反斜杠(\)转义字符。如下表：
-![](https://github.com/anmiaru/python3/raw/master/image/9-1.png)
+![](/image/9-1.png)
 
 ---
 
 
 ### **Python字符串运算符**
 下表实例变量a值为字符串 "Hello"，b变量值为 "Python"：
-![](https://github.com/anmiaru/python3/raw/master/image/9-2.png)
+![](/image/9-2.png)
 
 ```python
 #!/usr/bin/python3
@@ -105,10 +105,10 @@ print ("我叫 %s 今年 %d 岁!" % ('小明', 10))
 我叫 小明 今年 10 岁!
 ```
 python字符串格式化符号:
-![](https://github.com/anmiaru/python3/raw/master/image/9-3.png)
+![](/image/9-3.png)
 
 格式化操作符辅助指令:
-![](https://github.com/anmiaru/python3/raw/master/image/9-4.png)
+![](/image/9-4.png)
 
 Python2.6 开始，新增了一种格式化字符串的函数 str.format()，它增强了字符串格式化的功能。
 

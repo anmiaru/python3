@@ -36,7 +36,7 @@ Python 已经被移植在许多平台上（经过改动使它能够工作在不�
 如果您平台的二进制代码是不可用的，你需要使用C编译器手动编译源代码。  
 编译的源代码，功能上有更多的选择性， 为 Python 安装提供了更多的灵活性。    
 以下是各个平台安装包的下载地址：
-![](https://github.com/anmiaru/python3/raw/master/image/2-1.jpg)  
+![](/image/2-1.jpg)  
 Source Code 可用于 Linux 上的安装。  
 
 以下为不同平台上安装 Python3 的方法。  
@@ -66,13 +66,13 @@ Python 3.6.1
 #### Unix & Linux 平台安装 Python3:
 以下为在 Window 平台上安装 Python 的简单步骤。  
 打开 WEB 浏览器访问 https://www.python.org/downloads/windows/ ，一般就下载 executable installer，x86 表示是 32 位机子的，x86-64 表示 64 位机子的。
-![](https://github.com/anmiaru/python3/raw/master/image/2-2.png)
+![](/image/2-2.png)
 
 记得勾选 Add Python 3.7 to PATH。
-![](https://github.com/anmiaru/python3/raw/master/image/2-3.png)
+![](/image/2-3.png)
 
 按 *Win+R* 键，输入 cmd 调出命令提示符，输入 python:
-![](https://github.com/anmiaru/python3/raw/master/image/2-4.png)
+![](/image/2-4.png)
 
 ### **环境变量配置**
 程序和可执行文件可以在许多目录，而这些路径很可能不在操作系统提供可执行文件的搜索路径中。
@@ -114,7 +114,7 @@ path=%path%;C:\Python
 * 选择"系统变量"窗口下面的"Path",双击即可！
 * 然后在"Path"行，添加python安装路径即可(我的D:\Python32)，所以在后面，添加该路径即可。 ps：记住，路径直接用分号"；"隔开！
 * 最后设置成功以后，在cmd命令行，输入命令"python"，就可以有相关显示。
-![](https://github.com/anmiaru/python3/raw/master/image/2-5.png)
+![](/image/2-5.png)
 
 ### **Python 环境变量**
 下面几个重要的环境变量，它应用于Python：  

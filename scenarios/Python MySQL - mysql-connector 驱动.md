@@ -92,7 +92,7 @@ mycursor.execute("CREATE TABLE sites (name VARCHAR(255), url VARCHAR(255))")
 ```
 执行成功后，我们可以看到数据库创建的数据表 sites，字段为 name 和 url。
 
-![](https://github.com/anmiaru/python3/raw/master/image/30-1.png)
+![](/image/30-1.png)
 
 我们也可以使用 "SHOW TABLES" 语句来查看数据表是否已存在：
 ```python
@@ -210,7 +210,7 @@ print(mycursor.rowcount, "记录插入成功。")
 ```
 执行以上代码后，我们可以看看数据表的记录：
 
-![](https://github.com/anmiaru/python3/raw/master/image/30-2.png)
+![](/image/30-2.png)
 
 如果我们想在数据记录插入后，获取该记录的 ID ，可以使用以下代码：
 ```python
