@@ -196,7 +196,7 @@ fo.close()
 #### **描述**
 Python 3 中的 File 对象不支持 next() 方法。
 
-Python 3 的内置函数 next() 通过迭代器调用 __next__() 方法返回下一项。 在循环中，next()方法会在每次循环中调用，该方法返回文件的下一行，如果到达结尾(EOF),则触发 StopIteration
+Python 3 的内置函数 next() 通过迭代器调用 \_\_next\_\_() 方法返回下一项。 在循环中，next()方法会在每次循环中调用，该方法返回文件的下一行，如果到达结尾(EOF),则触发 StopIteration
 #### **语法**
 next() 方法语法如下：
 ```python
